@@ -43,6 +43,14 @@ tb/work/
 tb/*.vvp
 tb/*.out
 
+# Local teacher reference answers
+teacher-lab1-4/
+hardware_training/
+
+# Local mutation-test helper
+student-lab1-4/run-mutation-tests.sh
+student-lab1-4/mutation-tests.md
+
 # NEMU (keep as external submodule)
 nemu/.git
 
@@ -69,6 +77,7 @@ libs/*/*.o
 *:Zone.Identifier
 diff-tools/*/rtl-windows/
 diff-tools/*/rtl-og/
+diff-tools/sim_tools_simple/obj_dir
 
 # Generated files
 *.bak
@@ -82,3 +91,9 @@ sim/*/riscv.map
 
 # NEMU source (will be submodule)
 nemu/.gitignore
+
+# wave file
+*.vcd
+
+*.zip
+docs
